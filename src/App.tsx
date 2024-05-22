@@ -22,8 +22,8 @@ function App() {
         <button style={{ // Button to hide the framer badge, replace with your own CTA button
           position: 'absolute',
           bottom: '17px',
-          right: '24px',
-          width: '157px',
+          right: '33px',
+          width: '145px',
           height: '40px',
           backgroundColor: 'black',
           color: "white",
