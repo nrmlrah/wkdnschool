@@ -27,17 +27,17 @@ function App() {
           height: '40px',
           backgroundColor: 'black',
           color: "white",
-          borderRadius: '13px',
+          borderRadius: '9px',
           border: 'none',
           cursor: 'pointer',
           fontSize: '14px',
           boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
         }}
           onClick={() => {
-            alert('CTA Button clicked!')
+            window.open('https://calendly.com/nirmal-pebbl/glitch-reel-demo', '_blank')
           }}
         >
-          Start Free Trial !
+          Book Demo
         </button>
 
       </div>
