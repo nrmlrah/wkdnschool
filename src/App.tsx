@@ -14,7 +14,7 @@ function App() {
       </style>
       <div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
         <iframe
-          src="https://technical-symptoms-381085.framer.app" // Replace with your own URL
+          src="https://ivory-works-620331.framer.app" // Replace with your own URL
           title="Embedded Webpage"
           style={{ width: '100%', height: '100%', border: 'none' }}
         />
@@ -34,7 +34,7 @@ function App() {
           boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
         }}
           onClick={() => {
-            alert('Button clicked!')
+            alert('CTA Button clicked!')
           }}
         >
           Start Free Trial !
