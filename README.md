@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Framer for Free
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Unlock the full potential of your free Framer account by using custom domains! This repository enables you to showcase your Framer projects on custom domains using a simple iframe embed technique. Deploy your own version for free using platforms like Vercel or Netlify.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Custom Domains:** Use your own domain instead of the `framer.com` URL.
+- **Iframe Embedding:** Seamlessly integrate your Framer project into a webpage using an iframe.
+- **CTA Button:** A special feature to hide the "Made with Framer" badge, making your project look more professional.
 
-## Expanding the ESLint configuration
+## How to Use
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Step 1: Fork the Repository
 
-- Configure the top-level `parserOptions` property like this:
+Start by forking this repository to your own GitHub account.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Step 2: Update the Framer URL
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Edit the `App.tsx` file to replace the placeholder URL with your project's Framer URL.
+
+### Step 3: Deploy to a Hosting Platform
+
+Choose a hosting platform of your choice, like Vercel that allows adding custom domains for free.
