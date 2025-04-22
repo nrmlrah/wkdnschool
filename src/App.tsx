@@ -14,12 +14,12 @@ function App() {
       </style>
       <div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
         <iframe
-          src="https://ivory-works-620331.framer.app" // Replace with your own URL
+          src="https://wall.page/9qa7ej" // Replace with your own URL
           title="Embedded Webpage"
           style={{ width: '100%', height: '100%', border: 'none' }}
         />
 
-        <button style={{ // Button to hide the framer badge, replace with your own CTA button
+{/*         <button style={{ // Button to hide the framer badge, replace with your own CTA button
           position: 'absolute',
           bottom: '17px',
           right: '33px',
@@ -35,7 +35,7 @@ function App() {
         }}
           onClick={() => {
             window.open('https://calendly.com/nirmal-pebbl/glitch-reel-demo', '_blank')
-          }}
+          }} */}
         >
           Book Demo
         </button>
